@@ -1,0 +1,186 @@
+html{
+color:white;
+font-family: 'PT Sans', sans-serif;
+}
+.URL{
+        display:none;
+
+}
+.name{
+        font-size:25;
+
+}
+.songListing{
+
+    background-color: rgba(46, 46, 46, 0.18);;
+    padding: 10px;
+    overflow: auto;
+    border-bottom: 1px solid #171918;
+}
+.songs{
+overflow:auto;
+
+}
+body{
+background-color: black;
+}
+.Upload{
+
+display:none;
+}
+#UploadButton{
+    font-size: 21px;
+    padding: 13px;
+    background-color: black;
+    border: none;
+
+}
+#PLAYER{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left:15px;
+    
+}
+.delete{
+    display:none !important;
+
+}
+
+#playerDiv {
+
+}
+.deleteForm{
+display:none;
+padding-left = 10px
+}
+.playButton{
+    padding-top: 5px;
+    width: auto;
+    height: 50%;
+    z-index: 1;
+    margin: 0 auto;
+    display: block;
+}
+
+.pauseButton{
+    padding-top: 5px;
+    width: auto;
+    height: 50%;
+    z-index: 1;
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+
+}
+.selectCircle {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px; 
+        background-color:gray;
+        float:right;
+	/* width and height can be anything, as long as they're equal */
+}
+
+div#PlayerContainer{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    bottom: 0px;
+    position: fixed;
+    left:0;
+    
+}
+
+#PlayerButtons{
+/*
+    left: 50%;
+    position: fixed;
+    min-width: 50%;
+    min-height: 50%;
+    height: 50%;
+    width:50%;
+    margin: 0 auto;
+    width: 50%;
+    left:50%;*/
+}
+
+
+div#PlayerContainer {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    bottom: 0px;
+    position: fixed;
+    left: 0;
+    padding-bottom: 13px;
+}
+
+div#ProgressContainer {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: auto;
+    overflow: auto;
+}
+
+div#TimePast {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+        padding-bottom: 18px;
+}
+
+div#TimeLeft {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+        padding-bottom: 18px;
+}
+div#ProgressBarContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+div#ProgressBarBackground {
+    background-color: white;
+    height: 10px;
+}
+div#ProgressBar {
+    z-index: 4;
+    background-color: red;
+    height: 10px;
+    width: 10%;
+}
+
+input#searchInput {
+    width: 100%;
+    height: 5%;
+    background-color: #303030;
+    border: none;
+    border-bottom: 3px solid #404040;
+    display: block;
+    position: fixed;
+    color: white;
+    font-size: large;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 0px;
+    margin: 2px;
+}
+@media(max-width:600px){
+     input#searchInput{
+             height: 8%;   
+     }
+
+}
+
+.LoadingGif {
+    padding-top: 5px;
+    width: auto;
+    height: 50%;
+    z-index: 1;
+    margin: 0 auto;
+    display: block;
+}
